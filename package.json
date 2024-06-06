@@ -1,5 +1,5 @@
 {
-  "name": "vue-component-template",
+  "name": "help-mode-test",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -27,12 +27,12 @@
     "*.json",
     "*.js"
   ],
-  "main": "./dist/vue-component-template.umd.cjs",
-  "module": "./dist/vue-component-template.js",
+  "main": "./dist/help-mode-test.umd.cjs",
+  "module": "./dist/help-mode-test.js",
   "exports": {
     ".": {
-      "import": "./dist/vue-component-template.js",
-      "require": "./dist/vue-component-template.umd.cjs"
+      "import": "./dist/help-mode-test.js",
+      "require": "./dist/help-mode-test.umd.cjs"
     },
     "./dist/style.css": "./dist/style.css"
   },

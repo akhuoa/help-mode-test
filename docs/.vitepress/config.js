@@ -9,9 +9,9 @@ const versionNumber = process.env.npm_package_version
 export default defineConfig({
   title: "Vue Component Template",
   description: "API documentation for Vue Component Template",
-  base: '/vue-component-template/',
+  base: '/help-mode-test/',
   head: [
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/vue-component-template/favicon.svg' }]
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/help-mode-test/favicon.svg' }]
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -19,7 +19,7 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       {
         text: 'API Reference',
-        link: '/components/VueComponentTemplate'
+        link: '/components/HelpModeTest'
       }
     ],
 
@@ -30,7 +30,7 @@ export default defineConfig({
       },
       {
         text: 'API Reference',
-        link: '/components/VueComponentTemplate'
+        link: '/components/HelpModeTest'
       },
       {
         text: 'Version',
@@ -43,7 +43,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/akhuoa/vue-component-template' }
+      { icon: 'github', link: 'https://github.com/akhuoa/help-mode-test' }
     ]
   },
   markdown: { attrs: { disable: true } },

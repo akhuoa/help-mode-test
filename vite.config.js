@@ -17,8 +17,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, './src/components/index.js'),
-      name: 'VueComponentTemplate',
-      fileName: 'vue-component-template',
+      name: 'HelpModeTest',
+      fileName: 'help-mode-test',
     },
     rollupOptions: {
       external: ['vue'],

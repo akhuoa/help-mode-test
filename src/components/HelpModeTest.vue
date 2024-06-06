@@ -1,4 +1,4 @@
-<script setup name="VueComponentTemplate">
+<script setup name="HelpModeTest">
 defineProps({
   /**
    * The title of the component.

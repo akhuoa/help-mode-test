@@ -1,9 +1,9 @@
 <script setup>
-import VueComponentTemplate from './components/VueComponentTemplate.vue';
+import HelpModeTest from './components/HelpModeTest.vue';
 </script>
 
 <template>
-  <VueComponentTemplate title="Vue Component Template" />
+  <HelpModeTest title="Vue Component Template" />
 </template>
 
 <style scoped>

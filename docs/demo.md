@@ -5,7 +5,7 @@
 <div class="demo-container">
   <div class="demo-container-inner">
     <ClientOnly>
-      <VueComponentTemplate
+      <HelpModeTest
         title="Vue Component Template"
       />
     </ClientOnly>
@@ -16,8 +16,8 @@
 import { defineClientComponent } from "vitepress";
 import "./demo-styles.css";
 
-const VueComponentTemplate = defineClientComponent(() => {
-  return import("../src/components/VueComponentTemplate.vue");
+const HelpModeTest = defineClientComponent(() => {
+  return import("../src/components/HelpModeTest.vue");
 })
 </script>
 
@@ -26,16 +26,16 @@ const VueComponentTemplate = defineClientComponent(() => {
 
 ```js-vue
   <div class="your-outer-container">
-    <VueComponentTemplate
+    <HelpModeTest
       title="Vue Component Template"
     />
   </div>
 
   <script>
-    import VueComponentTemplate from '@abi-software/vue-component-template'
+    import HelpModeTest from '@abi-software/help-mode-test'
 
     export default {
-      components: { VueComponentTemplate },
+      components: { HelpModeTest },
     }
   </script>
 ```
